@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  & img {
+    width: 200px;
+  }
+
+  & nav ul {
+    display: flex;
+    padding: 40px 80px;
+    gap: 40px;
+    list-style: none;
+    & li {
+      cursor: pointer;
+      & a {
+        font: var(--font-p2);
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

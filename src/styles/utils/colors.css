@@ -1,0 +1,19 @@
+:root {
+  /* Base colors */
+  --b1: #f8f9fa;
+  --b2: #1a1a1a;
+  --b3: #2F2F2F;
+
+  /* Shades colours */
+  --s1: #e9ecef;
+  --s2: #dee2e6;
+  --s3: #495057;
+
+  /* Accent colours */
+  --a1: #0055FF;
+  --a2: #FFFFFF;
+  --a3: #E6EEFF;
+  --a4: #D0D7DE;
+  --a5: #FF0000;
+  --a6: #C51F5D;
+}

@@ -1,0 +1,75 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { Image } from 'astro:assets';
+import mockImg from '../../public/home/mock.png';
+---
+
+<MainLayout title="Home | Leo Crixi">
+  <section class="container hero">
+    <h1 class="animate from-left">
+      <span>Stop Losing Leads</span> to a Website That Doesn't Match Your Expertise
+    </h1>
+    <h6 style="--delay: 0.3s" class="animate from-left">
+      You're a pro at what you do, but technical friction is costing you growth.
+      I build high-impact web systems for solopreneurs that transform passive
+      visitors into gold-standard client leads.
+    </h6>
+    <button style="--delay: 0.6s" class="btn animate from-left"
+      >Book a Strategy Call</button
+    >
+    <Image src={mockImg} alt='test'/>
+  </section>
+
+  <section class="container services">
+    <div>
+      <p class="animate from-left">STRATEGIC TECHNICAL SERVICES</p>
+      <h2 class="animate from-up">Online Tools That <span>Grow Your Business</span> Automatically</h2>
+      <img src="../../public/home/growth.gif" class="animate from-down" alt="" />
+      <a class="storyset" href="https://storyset.com/work"
+        >Work illustrations by Storyset</a
+      >
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div>
+          <img src="../../public/home/f1.jpg" alt="" />
+        </div>
+        <h5>Websites That Sell</h5>
+        <p>
+          Custom-built pages designed to guide visitors into paying customers
+          without any roadblocks or technical stress.
+        </p>
+      </div>
+      <div class="feature">
+        <div>
+          <img src="../../public/home/f2.jpg" alt="" />
+        </div>
+        <h5>Easy Content Editing</h5>
+        <p>
+          Update your site in seconds without coding. Total control and zero
+          stress for you and your busy team.
+        </p>
+      </div>
+      <div class="feature">
+        <div>
+          <img src="../../public/home/f3.jpg" alt="" />
+        </div>
+        <h5>Automated Sales Assistants</h5>
+        <p>
+          Smart systems that handle bookings and intake while you sleep or focus
+          on helping your current clients.
+        </p>
+      </div>
+      <div class="feature">
+        <div>
+          <img src="../../public/home/f4.jpg" alt="" />
+        </div>
+        <h5>Growth Health Checks</h5>
+        <p>
+          Expert reviews to find and fix why visitors leave before buying,
+          turning missed opportunities into income.
+        </p>
+      </div>
+    </div>
+  </section>
+</MainLayout>

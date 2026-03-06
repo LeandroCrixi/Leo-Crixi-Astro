@@ -1,0 +1,61 @@
+---
+import Header from "../components/Header.astro";
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VPCKMNVZ1"
+    ></script>
+    <script>
+      // @ts-ignore: dataLayer is a custom property for Google Analytics
+      window.dataLayer = window.dataLayer || [];
+      // @ts-ignore: Google Analytics expects this signature
+      function gtag() {
+        // @ts-ignore: Google Analytics expects this signature
+        window.dataLayer.push(arguments);
+      }
+      // @ts-ignore: Google Analytics expects arguments
+      gtag("js", new Date());
+      // @ts-ignore: Google Analytics expects arguments
+      gtag("config", "G-5VPCKMNVZ1");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon" />
+
+    <!-- Open Graph / Facebook / WhatsApp / Linkedin -->
+    <meta property="og:title" content="Leo Crixi – Full-stack Web Developer" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://leo-crixi.com/src/img/og_image.jpeg"
+    />
+    <meta property="og:url" content="https://leo-crixi.com/" />
+    <meta
+      property="og:description"
+      content="Check out my portfolio and web development projects."
+    />
+    <link rel="stylesheet" href="../../src/styles/style.css" />
+
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <title>{title}</title>
+  </head>
+
+  <body>
+    <Header />
+    
+    <main>
+      <slot />
+    </main>
+
+    <script src="../scripts/script.js"></script>
+  </body>
+
+</html>

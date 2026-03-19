@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^5.0.1",
+    "@calcom/embed-react": "^1.5.3",
     "astro": "^5.17.1"
   }
 }

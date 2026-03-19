@@ -16,131 +16,155 @@ import Leo from "../../public/home/img2.jpeg";
       professionals build web presences that convert visitors into paying
       clients and make you look as professional as you actually are.
     </h6>
-    <a href=""
-      ><button style="--delay: 0.6s" class="btn animate from-left"
-        >Book a Strategy Call</button
-      ></a
+    <button
+      style="--delay: 0.6s"
+      class="btn animate from-left"
+      data-cal-link="leo-crisci/calendar"
+      data-cal-namespace="calendar"
+      data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+      >Book a Strategy Call</button
     >
-    <Image src={mockImg} alt="" />
   </section>
-
-  <section class="container services">
-    <div>
-      <p class="animate from-left">STRATEGIC TECHNICAL SERVICES</p>
-      <h2 class="animate from-up">
-        Online Tools That <span>Grow Your Business</span> Automatically
-      </h2>
-      <img
-        src="../../public/home/growth.gif"
-        class="animate from-down"
-        alt=""
-      />
-      <a class="storyset" href="https://storyset.com/work"
-        >Work illustrations by Storyset</a
-      >
-    </div>
-    <div class="features">
-      <div class="feature">
-        <div>
-          <img src="../../public/home/f1.jpg" alt="" />
-        </div>
-        <h5>Get More Clients</h5>
-        <p>
-          A professional site that makes it easy for people to hire you. Stop
-          losing leads and start growing your business today.
-        </p>
-      </div>
-      <div class="feature">
-        <div>
-          <img src="../../public/home/f2.jpg" alt="" />
-        </div>
-        <h5>Easy Updates, Less Stress</h5>
-        <p>
-          Update your photos and text in seconds without any tech skills. Take
-          total control of your site without the headache.
-        </p>
-      </div>
-      <div class="feature">
-        <div>
-          <img src="../../public/home/f3.jpg" alt="" />
-        </div>
-        <h5>Save Time Automatically</h5>
-        <p>
-          Your site handles bookings and paperwork while you sleep. Stop chasing
-          emails and get back hours of your week for what matters most.
-        </p>
-      </div>
-      <div class="feature">
-        <div>
-          <img src="../../public/home/f4.jpg" alt="" />
-        </div>
-        <h5>Turn Visitors into Income</h5>
-        <p>
-          I find exactly where your site is losing people and fix it. Turn more
-          browsers into paying customers and stop missing out on new business.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="about container">
-    <div class="animate from-left">
-      <Image src={Leo} alt="" />
-    </div>
-    <div class="animate from-right">
-      <h2>
-        I build websites that help you look professional and get more clients.
-      </h2>
-      <p>
-        Most websites are just online business cards that don’t actually help
-        you grow. I’m Leo Crixi, and I make sure your site works as hard as you
-        do. I build simple, clear websites that make it easy for people to find
-        you, understand your work, and hire you.
-      </p>
-      <p class="sub-p">
-        You’ve worked hard to become an expert at what you do, and your website
-        should show that. I take care of all the tech headaches so you get a
-        site that is easy to manage and works perfectly every time. This gives
-        you total peace of mind to focus on your business.
-      </p>
-
-      <a href=""><button class="btn">Learn More about Me</button></a>
-    </div>
-  </section>
-
-  <section class="container portfolio">
-    <h2 class="animate from-up">Recent Projects</h2>
-    <h3 class="animate from-up">
-      A few recent projects that show the kind of results I create for my
-      clients.
-    </h3>
-
-    <div class="portfolios animate from-down">
-      <div>
-        <img src="../../public/portfolio/feature4.png" alt="" />
-        <h4>Tovar Beach Volley Club</h4>
-        <p>
-          A responsive multi-page website designed for a local sports club, focused on clear navigation, structured layouts, and mobile-first performance.
-        </p>
-      </div>
-      <div>
-        <img src="../../public/portfolio/feature2.png" alt="" />
-        <h4>Lucas Brandão - Press Kit</h4>
-        <p>
-          A digital media kit highlighting the work of Lucas Brandao, a
-          Brazilian musician and composer.
-        </p>
-      </div>
-      <div>
-        <img src="../../public/portfolio/feature1.png" alt="" />
-        <h4>Bellamy Resource Hub</h4>
-        <p>
-          A comprehensive database of resource for Bellamy & Associates, a
-          holistic therapy, coaching, and energy healing practice.
-        </p>
-      </div>
-    </div>
-
-    <button class="btn">View Full Portfolio</button>
-  </section>
+  <Image src={mockImg} alt="" />
 </MainLayout>
+
+<section class="container services">
+  <div>
+    <p class="animate from-left">STRATEGIC TECHNICAL SERVICES</p>
+    <h2 class="animate from-up">
+      Online Tools That <span>Grow Your Business</span> Automatically
+    </h2>
+    <img src="../../public/home/growth.gif" class="animate from-down" alt="" />
+    <a class="storyset" href="https://storyset.com/work"
+      >Work illustrations by Storyset</a
+    >
+  </div>
+  <div class="features">
+    <div class="feature">
+      <div>
+        <img src="../../public/home/f1.jpg" alt="" />
+      </div>
+      <h5>Get More Clients</h5>
+      <p>
+        A professional site that makes it easy for people to hire you. Stop
+        losing leads and start growing your business today.
+      </p>
+    </div>
+    <div class="feature">
+      <div>
+        <img src="../../public/home/f2.jpg" alt="" />
+      </div>
+      <h5>Easy Updates, Less Stress</h5>
+      <p>
+        Update your photos and text in seconds without any tech skills. Take
+        total control of your site without the headache.
+      </p>
+    </div>
+    <div class="feature">
+      <div>
+        <img src="../../public/home/f3.jpg" alt="" />
+      </div>
+      <h5>Save Time Automatically</h5>
+      <p>
+        Your site handles bookings and paperwork while you sleep. Stop chasing
+        emails and get back hours of your week for what matters most.
+      </p>
+    </div>
+    <div class="feature">
+      <div>
+        <img src="../../public/home/f4.jpg" alt="" />
+      </div>
+      <h5>Turn Visitors into Income</h5>
+      <p>
+        I find exactly where your site is losing people and fix it. Turn more
+        browsers into paying customers and stop missing out on new business.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="about container">
+  <div class="animate from-left">
+    <Image src={Leo} alt="" />
+  </div>
+  <div class="animate from-right">
+    <h2>
+      I build websites that help you look professional and get more clients.
+    </h2>
+    <p>
+      Most websites are just online business cards that don’t actually help you
+      grow. I’m Leo Crixi, and I make sure your site works as hard as you do. I
+      build simple, clear websites that make it easy for people to find you,
+      understand your work, and hire you.
+    </p>
+    <p class="sub-p">
+      You’ve worked hard to become an expert at what you do, and your website
+      should show that. I take care of all the tech headaches so you get a site
+      that is easy to manage and works perfectly every time. This gives you
+      total peace of mind to focus on your business.
+    </p>
+    <a href=""><button class="btn">Learn More about Me</button></a>
+  </div>
+</section>
+
+<section class="container portfolio">
+  <h2 class="animate from-up">Recent Projects</h2>
+  <h3 class="animate from-up">
+    A few recent projects that show the kind of results I create for my clients.
+  </h3>
+  <div class="portfolios animate from-down">
+    <div>
+      <img src="../../public/portfolio/feature4.png" alt="" />
+      <h4>Tovar Beach Volley Club</h4>
+      <p>
+        A responsive multi-page website designed for a local sports club,
+        focused on clear navigation, structured layouts, and mobile-first
+        performance.
+      </p>
+    </div>
+    <div>
+      <img src="../../public/portfolio/feature2.png" alt="" />
+      <h4>Lucas Brandão - Press Kit</h4>
+      <p>
+        A digital media kit highlighting the work of Lucas Brandao, a Brazilian
+        musician and composer.
+      </p>
+    </div>
+    <div>
+      <img src="../../public/portfolio/feature1.png" alt="" />
+      <h4>Bellamy Resource Hub</h4>
+      <p>
+        A comprehensive database of resource for Bellamy & Associates, a
+        holistic therapy, coaching, and energy healing practice.
+      </p>
+    </div>
+  </div>
+  <button class="btn">View Full Portfolio</button>
+</section>
+
+<section class="clients">
+  <h3>TRUSTED BY ELITE SOLOPRENEURS AND INDUSTRY LEADERS</h3>
+  <div class="marquee">
+    <div class="marquee-track">
+      <img src="../../public/clients-logos/bellamy.png" alt="" />
+      <img src="../../public/clients-logos/DTC.png" alt="" />
+      <img src="../../public/clients-logos/lucas-brandao.svg" alt="" />
+      <img src="../../public/clients-logos/river-string.svg" alt="" />
+      <img src="../../public/clients-logos/steph.svg" alt="" />
+      <img src="../../public/clients-logos/tovar-logo.svg" alt="" />
+
+      <!-- duplicate -->
+      <img src="../../public/clients-logos/bellamy.png" alt="" />
+      <img src="../../public/clients-logos/DTC.png" alt="" />
+      <img src="../../public/clients-logos/lucas-brandao.svg" alt="" />
+      <img src="../../public/clients-logos/river-string.svg" alt="" />
+      <img src="../../public/clients-logos/steph.svg" alt="" />
+      <img src="../../public/clients-logos/tovar-logo.svg" alt="" />
+    </div>
+  </div>
+</section>
+
+<section class="languages container"></section>
+<section class="reviews container"></section>
+<section class="faq container"></section>
+<section class="contact container"></section>
